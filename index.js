@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000; 
 
-app.get('/info', (req, res) => {
+app.get('/hng', (req, res) => {
   try {
     const slackName = req.query.slack_name;
     const track = req.query.track;
@@ -23,7 +23,7 @@ app.get('/info', (req, res) => {
     const utcTimeStr = utcTime.toISOString();
 
 
-    const githubRepoUrl = 'https://github.com/topeetee';
+    const githubRepoUrl = 'https://github.com/Topeetee/HNG.git';
     const githubFileUrl = `${githubRepoUrl}/blob/main/HNG1TASK`;
 
     const response = {
