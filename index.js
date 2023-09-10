@@ -24,7 +24,7 @@ app.get('/hng', (req, res) => {
 
 
     const githubRepoUrl = 'https://github.com/Topeetee/HNG.git';
-    const githubFileUrl = `${githubRepoUrl}/blob/main/HNG1TASK`;
+    const githubFileUrl = `${githubRepoUrl}/tree/hngTask1`;
 
     const response = {
       slack_name: slackName,
